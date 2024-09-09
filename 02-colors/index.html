@@ -11,22 +11,53 @@
     <!-- Default colors -->
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
+    <!-- Text Colors หรือ สีของข้อความ -->
+    <!--- ข้อความ-สีของข้อความ-ความเข้มของสี -->
+    <p class="text-black">Tailwind is awesome</p>
+    <p class="text-red-500">Tailwind is awesome</p>
+    <p class="text-green-500">Tailwind is awesome</p>
+    <p class="text-emerald-500">Tailwind is awesome</p>
+    <p class="text-zinc-300">Tailwind is awesome</p>
+    <p class="text-slate-800">Tailwind is awesome</p>
 
-    <!-- Background Colors -->
+    <!-- Background Colors หรือ สีของพื้นหลัง -->
+    <!--- พื้นหลัง-สีของข้อความ-ความเข้มของสี -->
+    <p class="bg-slate-200">Tailwind is awesome</p>
+    <!-- สีของพื้นหลัง สีของข้อความ -->
+    <p class="bg-red-500 text-white">Tailwind is awesome</p>
+    
+    <!-- Text Underline หรือ เส้นขีดใต้ข้อความ -->
+    <!-- เส้นใต้ข้อความ สีของเส้นใต้ข้อความ สีของข้อความ -->
+    <p class="underline decoration-red-500 text-black">Tailwind is awesome</p>
 
-    <!-- Text Underline -->
+    <!-- Border Colors หรือ กรอบ -->
+    <!-- กรอบ กรอบ-สี-ความเข้มสี -->
+    <input type="text" class="border border-blue-400">
 
-    <!-- Border Colors -->
+    <!-- Divide Colors หรือ เส้นแบ่ง -->
+    <!-- เส้นแบ่ง เส้นแบ่ง-สี-ความเข้มสี -->
+    <div class="divide-y divide-blue-300">
+      <div>Item 1</div>
+      <div>Item 1</div>
+      <div>Item 1</div>
+      <div>Item 1</div>
+    </div>
 
-    <!-- Divide Colors -->
-
-    <!-- Outline Colors -->
+    <!-- Outline Colors หรือ เส้นขอบแบบหนา -->
+    <!-- เส้นขอบ เส้นขอบ-สี-ความเข้มสี -->
+    <button class="outline outline-red-500">Hello</button>
 
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+    <!-- shadow-ขนาด พื้นหลัง-สี-ความเข้มสี shadow-สี-ความเข้มสี shadow -->
+    <button class="shadow-lg bg-cyan-500 shadow-cyan-500">Subscribe</button>
+    <button class="shadow-lg bg-cyan-500 shadow-purple-500/60">Subscribe</button>
 
-    <!-- Accent Colors -->
+    <!-- Accent Colors หรือ ทำสีของต่างๆ เช่น ปุ่ม checkbox -->
+    <input type="checkbox" class="accent-purple-500" checkbox />
+    <input type="checkbox" class="accent-cyan-500" checkbox />
 
-    <!-- Arbitrary Colors -->
+    <!-- Arbitrary Colors หรือ การจัดสีตามต้องการ -->
+     <div class="bg-[#427fab] text-[#00FF4C]">Hello</div>
+
   </body>
 </html>
