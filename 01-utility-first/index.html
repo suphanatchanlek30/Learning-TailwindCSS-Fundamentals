@@ -8,6 +8,20 @@
     <title>Message Alert</title>
   </head>
   <body>
-    <!-- Utility First -->
+      <!-- Utility First -->
+      <!-- จัดเรียงแนวนอน (flex), จัดกึ่งกลางแนวตั้ง, มีระยะห่างด้านใน, ความกว้างจำกัด, จัดกึ่งกลางแนวนอน, พื้นหลังสีขาว, ขอบโค้งมน, เงา, ระยะห่างระหว่างลูกในแนวแกน x, ระยะห่างจากด้านบน -->
+      <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+        <!--  img: ขนาดกว้างและสูง 3rem, แสดงภาพ, ข้อความแทนเมื่อภาพไม่แสดง -->
+        <img class="w-12 h-12" src="../assets/img/warning.svg" alt="">
+        <!-- div ภายใน: ควบคุมข้อความด้านใน -->
+        <div>
+          <!-- ข้อความหัวข้อ: ขนาดใหญ่, น้ำหนักตัวอักษรกลาง, สีดำ -->
+          <div class="text-xl font-medium text-black">
+            Are You Sure?
+          </div>
+          <!-- ข้อความเพิ่มเติม: สีเทา -->
+          <p class="text-slate-500">You are about to delete a post</p>
+        </div>
+      </div>
   </body>
 </html>
