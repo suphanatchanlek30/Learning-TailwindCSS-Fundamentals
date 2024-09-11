@@ -5,26 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- import font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme : {
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui'],
+            serif: ['Tapestry', 'Georgia'],
+            mono: ['ui-monospace', 'SFMono-Regular'],
+          }
+        }
+      }
+    </script>
     <title>Typography</title>
   </head>
   <body>
-    <!-- Font Family -->
+    <!-- Font Family หรือ รูปแบบของ font -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-mono">Tailwind is awesome</div>
 
-    <!-- Font Size -->
+    <!-- Font Size หรือ ขนาดของ font -->
+    <div class="text-xs">Tailwind is awesome</div>
+    <div class="text-sm">Tailwind is awesome</div>
+    <div class="text-base">Tailwind is awesome</div>
+    <div class="text-lg">Tailwind is awesome</div>
+    <div class="text-xl">Tailwind is awesome</div>
+    <div class="text-2xl">Tailwind is awesome</div>
+    <div class="text-9xl">Tailwind is awesome</div>
 
-    <!-- Font Weight -->
+    <!-- Font Weight หรือ ความหนาของ font -->
+    <div class="font-light">Tailwind is awesome</div>
+    <div class="font-normal">Tailwind is awesome</div>
+    <div class="font-medium">Tailwind is awesome</div>
+    <div class="font-semibold">Tailwind is awesome</div>
+    <div class="font-bold">Tailwind is awesome</div>
 
-    <!-- Letter Spacing -->
+    <!-- Letter Spacing หรือ ระยะห่างระหว่างตัวอักษร -->
+    <div class="tracking-tight">Tailwind is awesome</div>
+    <div class="tracking-tighter">Tailwind is awesome</div>
+    <div class="tracking-wide">Tailwind is awesome</div>
+    <div class="tracking-wider">Tailwind is awesome</div>
+    <div class="tracking-normal">Tailwind is awesome</div>
+    <div class="tracking-widest">Tailwind is awesome</div>
 
-    <!-- Text Alignment -->
+    <!-- Text Alignment หรือ ตำแหน่งของตัวอักษร -->
+    <div class="text-left">Tailwind is awesome</div>
+    <div class="text-center">Tailwind is awesome</div>
+    <div class="text-right">Tailwind is awesome</div>
 
-    <!-- Text Decoration -->
+    <!-- Text Decoration หรือ การตกแต่งข้อความ -->
+    <!-- ขีดเส้นใต้ , ความหนา 4, สี blue -->
+    <div class="underline decoration-4 decoration-blue-400 ">Tailwind is awesome</div>
+    
 
     <!-- Decoration Style -->
+    <!-- ขีดเส้นใต้ , มีสองเส้น, สี blue -->
+    <div class="underline decoration-double decoration-blue-400 ">Tailwind is awesome</div>
 
     <!-- Decoration Offset -->
+    <div class="underline decoration-4 decoration-blue-400 underline-offset-8 ">Tailwind is awesome</div>
 
-    <!-- Text Transform -->
+    <!-- Text Transform คือ การแปลงตัวอักษร เช่น จากตัวเล็ก เป็นตัวใหญ่ทั้งหมด -->
+    <p class="normal-case">Tailwind is awesome</p>
+    <p class="uppercase">Tailwind is awesome</p>
+    <p class="lowercase">Tailwind is awesome</p>
+    <p class="normal-case">Tailwind is awesome</p>
+
   </body>
 </html>
 
