@@ -9,7 +9,8 @@
   </head>
   <body>
     <!-- Container -->
-    <div>
+    <!-- width: 100%, margin-x-auto -->
+    <div class="container mx-auto">
       <article>
         <h3>Article One</h3>
         <p>
@@ -20,13 +21,45 @@
         </p>
       </article>
 
-      <!-- Margin -->
+      <!-- Margin หรือ ระยะห่างจากด้านนอก -->
+      <!-- Bg, margin-2 -->
+      <div class="bg-slate-100 m-2">Hello world</div>
+      <!-- ห่างจาก ขวา -->
+      <div class="bg-slate-200 ml-2">Hello world</div>
+      <!-- ห่างจาก ซ้าย -->
+      <div class="bg-slate-300 mr-2">Hello world</div>
+      <!-- ห่างจาก บน -->
+      <div class="bg-slate-400 mt-2">Hello world</div>
+      <!-- ห่างจาก ล่าง -->
+      <div class="bg-slate-400 mb-2">Hello world</div>
 
-      <!-- Padding -->
+      <!-- Padding หรือ ระยะห่างจากด้านใน -->
+      <!-- Bg, panding-2 -->
+      <div class="bg-slate-100 p-2">Hello world</div>
+      <!-- ห่างจาก ขวา -->
+      <div class="bg-slate-200 pl-2">Hello world</div>
+      <!-- ห่างจาก ซ้าย -->
+      <div class="bg-slate-300 pr-2">Hello world</div>
+      <!-- ห่างจาก บน -->
+      <div class="bg-slate-400 pt-2">Hello world</div>
+      <!-- ห่างจาก ล่าง -->
+      <div class="bg-slate-500 pb-2">Hello world</div>
 
       <!-- Space Between X -->
+      <!-- การแสดง flex, Margin-top-24, ระยะห่างระหว่างกันในแนวแกน X  -->
+      <div class="flex mt-24 space-x-4 ">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
 
       <!-- Space Between Y -->
+      <!-- การแสดง flex, flex-col Margin-top-24, ระยะห่างระหว่างกันในแนวแกน Y -->
+      <div class="flex flex-col mt-24 space-y-4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
     </div>
   </body>
 </html>
