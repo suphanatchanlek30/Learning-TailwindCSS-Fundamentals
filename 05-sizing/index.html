@@ -8,27 +8,54 @@
     <title>Sizing</title>
   </head>
   <body>
-    <!-- Width -->
+    <!-- Width หรือ ความกว้าง -->
+    <div class="bg-black text-white w-4">Hello</div>
+    <div class="bg-black text-white w-48">Hello</div>
+    <div class="bg-black text-white w-96">Hello</div>
 
-    <!-- Percentages -->
-
+    <!-- Percentages หรือ การจัดตามสัดส่วน -->
+    <div class="bg-green-700 text-white w-1/4">Hello</div>
+    <div class="bg-green-700 text-white w-1/3">Hello</div>
+    <div class="bg-green-700 text-white w-1/2">Hello</div>
+    
     <!-- Width of the viewport -->
+    <div class="bg-blue-500 text-white w-screen">Hello</div>
 
-    <!-- 100% of container -->
+    <!-- 100% of container หรือการทำแบบ % -->
+    <div class="bg-blue-300 text-white w-full">Hello</div>
 
     <!-- min/max content -->
+    <div class="bg-blue-300 text-white w-full">Hello</div>
 
-    <!-- Arbitrary width -->
+    <!-- Arbitrary width หรือ แบบที่สามารถกำหนดขนาดได้เอง -->
+    <div class="bg-red-300 text-white w-[1280px]">Hello</div>
 
-    <!-- Max Width -->
+    <!-- Max Width หรือ การกำหนดให้มีขนาดสูงสุดเท่าแค่ที่เรากำหนด -->
+    <!-- สีเทา, ขนาด-lg, margin-auto -->
+    <div class="bg-gray-300 max-w-lg mx-auto">
+      Lorem, ipsum dolor sit amet consectetur 
+      adipisicing elit. Voluptatum, officiis ad nesciunt, obcaecati accusantium delectus 
+      sit nulla illo, rerum accusamus necessitatibus ipsa culpa! Consequuntur tenetur sequi 
+      deserunt quis reprehenderit praesentium.
+    </div>
 
     <!-- Height (Most of the same options as widths) -->
+    <div class="flex items-end">
+      <div class="bg-orange-500 w-20 h-24">Hello</div>
+      <div class="bg-orange-500 w-20 h-32">Hello</div>
+      <div class="bg-orange-500 w-20 h-40">Hello</div>
+      <div class="bg-orange-500 w-20 h-48">Hello</div>
+      <div class="bg-orange-500 w-20 h-64">Hello</div>
+      <div class="bg-orange-500 w-20 h-96">Hello</div>
+    </div>
 
     <!-- Min Height -->
 
     <!-- Max Height -->
 
     <!-- Full screen height -->
+    <div class="bg-orange-500 text-white h-screen">Hello</div>
+
   </body>
 </html>
 
