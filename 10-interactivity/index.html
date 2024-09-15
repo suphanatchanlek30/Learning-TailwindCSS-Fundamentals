@@ -9,25 +9,93 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <!-- เอาเมาส์มาและจะเปลี่ยนไปตามคำสั่ง -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white ">Submit</button>
 
-    <!-- Focus State Styling -->
+    <!-- Focus State Styling เหมือน hover แต่กดเราคลิกถึงจะเปลี่ยนตามที่เราเขียนคำสั่งไว้ -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-orange-500 focus:text-white ">Submit</button>
 
-    <!-- Active State Styling -->
+    <!-- Active State Styling เหมือน focus แต่ต้องคลิ้กค้างเอาไว้ถึงจะทำตามคำสั่งที่เราสั่งไว้ -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-orange-500 active:text-white ">Submit</button>
 
-    <!-- Styling based on parent state -->
+    <!-- Styling based on parent state การสร้างองค์ประกอบต่างๆให้สามารถ hover ได้ -->
+    <a href="" class="group block max-w-xs max-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <!-- เลขคู่จะสีเขียว เลขคี่จะสีส้ม -->
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 5</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
-    <!-- Cursor -->
+    <br>
+
+    <!-- Cursor ตัวชี้ คือการเอาเมาส์ไปชี้แล้วจะให้แสดงยังไง -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-wait">Submit</button>
+
+    <p class="cursor-pointer">Hello</p>
 
     <!-- Resize -->
 
-    <!-- User Select -->
+    <!-- User Select คือ การคลิ้กแล้ว คลุมทั้งหมดหรือไม่ -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
 
-    <!-- Smooth Scroll Example -->
+    <a href="#item" class="block my-6">Go To Item</a>
+
+    <!-- Smooth Scroll Example การกดแล้วเลื่อนไปยังจุดหมายที่เรากดได้อย่าง smoot -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea error 
+      harum debitis animi, expedita eligendi nobis officia consequuntur quae. Fugiat obcaecati 
+      aperiam quae iste, dolorum ea! Quasi alias provident numquam, dolorum commodi praesentium. 
+      Temporibus laborum numquam minima porro inventore doloribus nesciunt? Impedit, modi autem 
+      accusamus libero fugiat cupiditate iusto sed temporibus similique? Sed beatae fugit tenetur 
+      assumenda laboriosam voluptatibus incidunt quo adipisci, ullam eveniet cumque aut eaque nemo 
+      alias voluptatem veniam ea odio exercitationem officiis, maiores nihil laudantium, facere ab 
+      blanditiis! Beatae provident nihil in maiores, exercitationem omnis enim quos? Nihil, amet, 
+      ut dolor tempora quos iure dolorum, ullam voluptatem quaerat sequi modi debitis hic unde fugit 
+      rerum! Excepturi suscipit unde voluptates dignissimos nisi labore ab architecto laboriosam quisquam 
+      iusto, eum, tempora doloribus enim sequi molestias molestiae, quos asperiores repellat ipsam qui vero 
+      impedit natus culpa aut! Animi provident, beatae dicta qui quasi quos. Nulla eaque odit, reprehenderit, 
+      distinctio veritatis ratione iure illo quasi dolore commodi provident repellat modi, ad debitis. Eaque, 
+      ratione porro culpa natus sed provident autem perspiciatis temporibus dolorum atque eum sapiente dignissimos 
+      error, excepturi enim, tenetur laudantium? Ex repellendus vitae quasi sit tempore vero, iusto, incidunt sequi 
+      consequuntur, esse tenetur commodi non. Nihil, laborum nemo fugiat ratione ex maiores eum aspernatur dicta architecto 
+      in consequatur reprehenderit vel quia modi quasi itaque amet rem quis accusantium exercitationem? Amet repudiandae nam 
+      obcaecati, vel repellat beatae similique ad ducimus vero eos saepe corporis, natus maiores maxime incidunt in minus. 
+      Rem consectetur quas quaerat, deserunt, consequatur dolor ullam quam possimus at sed corrupti odio beatae perferendis 
+      ipsam veniam incidunt nisi doloribus rerum assumenda, officia voluptas molestiae libero! Distinctio numquam maxime 
+      suscipit molestiae aliquid dolores voluptatibus? Optio, sequi id placeat atque qui, molestiae enim, deserunt perferendis 
+      odio possimus architecto doloribus nobis ratione suscipit adipisci rerum! Pariatur suscipit obcaecati et? Atque 
+      molestias nostrum esse repudiandae eos! Minima fugit sapiente at qui, expedita labore nesciunt dolorum natus eveniet 
+      doloribus repellendus ratione, veniam iure quod a facere temporibus rerum fuga officia inventore eligendi voluptatem 
+      laudantium cupiditate blanditiis? Aspernatur quisquam voluptates sequi, facere aperiam sunt. Perferendis, iure nulla 
+      laborum ipsa fugiat nesciunt tenetur. Voluptate iste saepe dolores odio esse, cumque fuga libero incidunt totam 
+      consequuntur et commodi deserunt recusandae fugiat cupiditate expedita dolore placeat aperiam eius reiciendis animi 
+      laudantium. Repellendus dolorum expedita, quia voluptas sequi voluptate tempore, delectus officia omnis, magnam deserunt. 
+      Neque, libero! Eaque, perferendis aut magnam voluptate totam quisquam. Perferendis, quidem laudantium?
+    </p>
+    <div id="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aperiam distinctio maiores quod, veniam praesentium 
+      tenetur nihil commodi aliquam iste. Beatae corrupti repudiandae, consectetur assumenda nam debitis consequatur reiciendis, 
+      odit harum tempora eaque sint ipsum rem in adipisci recusandae laudantium, corporis earum natus voluptatum fuga quisquam omnis. 
+      Sint, accusantium vel?
+      </div>
   </body>
 </html>
 
