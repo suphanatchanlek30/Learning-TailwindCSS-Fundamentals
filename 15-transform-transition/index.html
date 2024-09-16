@@ -9,17 +9,31 @@
   </head>
   <body>
     <!-- No Transition -->
-    <button
-      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700"
-    >
+    <button class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700">
       Click me
     </button>
 
-    <!-- Transition -->
+    <!-- Transition เวลาในการที่เราจะเรียกให้แสดงต่างๆ เช่น ค่อยๆเปลี่ยนสี -->
+    <button 
+      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700 transition-colors duration-1000">
+      Click me
+    </button>
 
     <!-- Transition & Transform -->
+    <!-- สามารถปรับให้เวลาเอาเมาส์มาชี้ที่ตรงปุ่มทำให้เอียงได้ และปรับเวลาที่ค่อยๆหมุนได้ -->
+    <button class="px-8 py-2 m-24 text-white bg-blue-500 
+      rounded hover:bg-blue-700
+      hover:rotate-12
+      duration-1000
+      ">
+      Click me
+    </button>
 
-    <!-- Transform & Transition -->
+    <img src="../assets/img/img1.jpg" alt="" class="w-48
+      hover:rotate-180 hover:scale-75 hover:skew-x-12
+      transition duration-1000
+    ">
+
   </body>
 </html>
 
